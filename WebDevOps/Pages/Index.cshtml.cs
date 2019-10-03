@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 
 namespace WebDevOps.Pages
 {
+    // @model IndexModel esta línea está en index.cshtml
+    // 
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
